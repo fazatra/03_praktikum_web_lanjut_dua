@@ -22,12 +22,12 @@ class ProfileController extends Controller
             ->with('nimN', '2141720057')
             ->with('absenN', '20')
             ->with('bioN', 'Kejar akhirat dunia kau dapat')
-        //Khafabi
+        //Khafabii
             ->with('full_nameK', 'Abdullah Khafabi')
-            ->with('lahirK', 'Jakarta')
-            ->with('nimK', '2141720057')
+            ->with('lahirK', 'Gresik')
+            ->with('nimK', '2041720050')
             ->with('absenK', '2')
-            ->with('bioK', 'Kejar akhirat dunia kau dapat');
+            ->with('bioK', 'Always Safety');
 
     }
 

@@ -21,7 +21,7 @@ class PengalamanKuliahController extends Controller
         //Khafabi
             ->with('full_nameK', 'Abdullah Khafabi')
             ->with('nameK', 'Bibi')
-            ->with('pengalamanK', 'Pusying...');
+            ->with('pengalamanK', 'Pusing, Banyak Tantangan');
     }
 
 }
