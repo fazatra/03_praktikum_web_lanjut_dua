@@ -15,12 +15,26 @@
                     <img src="dist/img/Logo.png" alt="foto joms" style="width:250px"> <br><br> 
                     </center>
                     
-                    <h5 style="font-weight: bold">Biodata {{ $rfull_name }}</h5>
-                    Nama Lengkap : {{ $rfull_name }} <br>
-                    NIM : {{ $rnim }} <br>
-                    Absen : {{ $rabsen }} <br><br>
-                    {{ $rbio }}<br><hr> <br>
+                    <h5 style="font-weight: bold">Biodata {{ $full_nameF }}</h5>
+                    Nama Lengkap : {{ $full_nameF }} <br>
+                    Tempat Lahir  : {{ $lahirF }} <br>
+                    NIM : {{ $nimF }} <br>
+                    Absen : {{ $absenF }} <br><br>
+                    {{ $bioF }}<br><hr>
                 <br>
+                    <h5 style="font-weight: bold">Biodata {{ $full_nameN }}</h5>
+                    Nama Lengkap : {{ $full_nameN }} <br>
+                    Tempat Lahir  : {{ $lahirN }} <br>
+                    NIM : {{ $nimN }} <br>
+                    Absen : {{ $absenN }} <br><br>
+                    {{ $bioN }}<br><hr>
+                <br>
+                    <h5 style="font-weight: bold">Biodata {{ $full_nameK }}</h5>
+                    Nama Lengkap : {{ $full_nameK }} <br>
+                    Tempat Lahir  : {{ $lahirK }} <br>
+                    NIM : {{ $nimK }} <br>
+                    Absen : {{ $absenK }} <br><br>
+                    {{ $bioK }}<br><hr>
             </div>
             </div>
 

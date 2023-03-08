@@ -10,10 +10,18 @@ class PengalamanKuliahController extends Controller
     public function pengalaman(){
         
         return view('pengalaman')
-            ->with('rfull_name', 'Muhammad Farhan Riza Putra')
-            ->with('rname', 'Farhan')
-            ->with('rpengalaman', '"Lelah letih"')
-
-            ;
+        //Farhan
+            ->with('full_nameF', 'Muhammad Farhan Riza Putra')
+            ->with('nameF', 'Farhan')
+            ->with('pengalamanF', 'Lelah letih')
+        //Naresh
+            ->with('full_nameN', 'Naresh Pratista')
+            ->with('nameN', 'Naresh')
+            ->with('pengalamanN', 'Senang, Gembira, Sederhana')
+        //Khafabi
+            ->with('full_nameK', 'Abdullah Khafabi')
+            ->with('nameK', 'Bibi')
+            ->with('pengalamanK', 'Pusying...');
     }
+
 }
