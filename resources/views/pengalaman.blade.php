@@ -15,18 +15,6 @@
                     Nama panggilan: {{ $rname }}  <br><br>
                     {{ $rpengalaman }}<br><hr> <br>
 
-                    <h5 style="font-weight: bold">Pengalaman {{ $sfull_name }}</h5>
-                    Nama panggilan: {{ $sname }} <br><br>
-                    {{ $spengalaman }}<br><hr><br>
-
-                    <h5 style="font-weight: bold">Pengalaman {{ $zfull_name }}</h5>
-                    Nama panggilan: {{ $zname }} <br><br>
-                    {{ $zpengalaman }}<br> <br>
-
-                    
-                    
-                    
-                
                 <br>
             </div>
             </div>
