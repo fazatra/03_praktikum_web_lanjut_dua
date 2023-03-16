@@ -31,7 +31,7 @@ class Profile extends Seeder
             'namaLengkap' => 'Abdullah Khafabi',
             'tempatLahir' => 'Gresik',
             'nim' => 2041720050,
-            'absen' => 2
+            'absen' => 02
         ]];
         DB::table('profile')->insert($data);
     }
