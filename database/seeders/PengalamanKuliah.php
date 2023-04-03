@@ -31,7 +31,7 @@ class PengalamanKuliah extends Seeder
             'namaLengkap' => 'Abdullah Khafabi',
             'namaPanggilan' => 'Bibi',
             'umur' => 20,
-            'pesan' => 'Pusing, Banyak Tantangan'
+            'pesan' => 'Yang Penting Yakin'
         ]];
         DB::table('pengalamankuliah')->insert($data);
     }
