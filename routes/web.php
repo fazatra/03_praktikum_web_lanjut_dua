@@ -1,10 +1,9 @@
 <?php
 
-use App\Http\Controllers\LayoutController;
-use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PengalamanKuliahController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,16 +15,20 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', function () {
+    return view('auth.login');
+});
 
-Route::get('/', [LayoutController::class,'home']);
-Route::get('/dashboard', [DashboardController::class,'dashboard']);
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/dashboard', [App\Http\Controllers\HomeController::class,'dashboard'])->name('dashboard');
 Route::get('/profile', [ProfileController::class,'profile']);
 Route::get('/profile/{$name}', [ProfileController::class,'profile']);
 Route::get('/pengalaman-kuliah', [PengalamanKuliahController::class,'pengalaman']);
 
-Route::controller(LayoutController::class)->group(function (){
-    Route::get('home', 'home');
-    Route::get('/layout/index', 'index');
-});
-
+// Route::controller(LayoutController::class)->group(function (){
+//     Route::get('home', 'home');
+//     Route::get('/layout/index', 'index');
+// });
 
