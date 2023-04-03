@@ -11,8 +11,7 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="inner">
             <h4 style="font-weight: bold">Selamat Datang</h4>
-
-            <h5 style="font-weight: bold">{!! $full_name !!}</h5>
+            <h5 style="font-weight: bold">{!! $user->name !!}</h5>
         </div>
       </div>
 </section>

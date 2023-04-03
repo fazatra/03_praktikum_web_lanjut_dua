@@ -16,5 +16,6 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(PengalamanKuliah::class);
         $this->call(Profile::class);
+        $this -> call(NewUserSeeder::class);
     }
 }
